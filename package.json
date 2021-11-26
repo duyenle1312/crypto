@@ -1,52 +1,52 @@
 {
-  "name": "@landing/027-gatsby",
+  "name": "portfolio",
+  "version": "0.1.0",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.0.1",
-  "author": "RedQ, Inc.",
   "dependencies": {
-    "@emotion/core": "^11.0.0",
-    "framer-motion": "^4.0.3",
-    "gatsby": "^3.1.2",
-    "gatsby-image": "^3.1.0",
-    "gatsby-plugin-google-analytics": "^3.1.0",
-    "gatsby-plugin-mailchimp": "^5.2.2",
-    "gatsby-plugin-manifest": "^3.1.0",
-    "gatsby-plugin-react-helmet": "^4.1.0",
-    "gatsby-plugin-robots-txt": "^1.5.5",
-    "gatsby-plugin-sharp": "^3.1.2",
-    "gatsby-plugin-theme-ui": "^0.6.0",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^3.2.0",
-    "gatsby-transformer-sharp": "^3.2.0",
-    "polished": "^4.0.5",
-    "prop-types": "^15.7.2",
-    "rc-drawer": "^4.3.1",
+    "@craco/craco": "^6.4.1",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.0",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "@mui/styles": "^5.2.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
-    "react-countdown": "^2.3.1",
-    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
-    "react-modal-video": "^1.2.6",
-    "react-scroll": "^1.8.2",
-    "react-slick": "^0.28.1",
-    "react-stickynode": "^3.0.5",
-    "react-waypoint": "^9.0.3",
-    "theme-ui": "^0.6.0",
-    "typeface-archivo": "^1.1.13",
-    "typeface-bree-serif": "^1.1.13",
-    "typeface-dm-sans": "^1.1.13"
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "dev": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
