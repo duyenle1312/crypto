@@ -24,7 +24,7 @@ function Home() {
                   <nav class="md:block hidden nav font-semibold text-lg">
                       <ul class="flex items-center">
                           <li class="p-4 hover:text-black">
-                              <a href="">Blockchain</a>
+                              <a href="">Metabot</a>
                           </li>
                           <li class="p-4 hover:text-green duration-200 cursor-pointer">
                               <a href="/xblock">MBlock</a>
@@ -103,12 +103,13 @@ function Home() {
               <p className="md:text-xl text-sm mt-6 text-white">
                     The All-In-One Blockchain Platform for <br/> Real-Time Metaverse Community and Your Digital Twin
               </p> 
-              <a href={Pdf} target='_blank' rel='noopener noreferrer'>
-                    open pdf   </a>
-              <p className="md:text-base text-xs mt-52 text-white w-4/5">
-                    In the world of Metabot, more participants can create and share
-                    AR &VR content together based on their experiences, skills, and
+              In the world of Metabot, more participants can create and share
+                    AR & VR content together based on their experiences, skills, and
                     content by applying the world’s most advanced AR / VR SDK.
+              <p className="md:text-base text-xs mt-52 text-pink w-4/5">
+              <a href={Pdf} target='_blank' rel='noopener noreferrer'>
+              WHITEPAPER - OPEN TO READ   </a>
+                    
               </p>
             </div>
           </div>
