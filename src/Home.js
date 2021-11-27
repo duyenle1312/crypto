@@ -3,7 +3,8 @@ import "./Home.css";
 import './index.css';
 import logo from "./img/logo.png";
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import Pdf from "./components/documents/meta.pdf"
+import Pdf from "./components/documents/meta.pdf";
+
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
