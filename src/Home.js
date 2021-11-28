@@ -13,7 +13,7 @@ function Home() {
   // Toogle Menu
    const [show, setShow] = useState(true);
   return (
-    <div className="home" id="Home">
+    <div className="home min-h-screen" id="Home">
       <div className="home__bg">
 
               <header class="flex header sticky top-0 bg-transparent shadow-md items-center justify-between px-8 py-02">
@@ -27,7 +27,7 @@ function Home() {
                               <a href="">Metabot</a>
                           </li>
                           <li class="p-4 hover:text-green duration-200 cursor-pointer">
-                              <a href="/xblock">MBlock</a>
+                              <a href="#About">MBlock</a>
                           </li>
                           <li class="p-4 hover:text-green-500">
                               <a href="">MMarket</a>

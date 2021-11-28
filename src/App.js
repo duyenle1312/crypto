@@ -10,18 +10,18 @@ import Tab from "./Tab";
 import YoutubeEmbed from "./YouTube";
 import Form from "./Form";
 import Cards from "./CardInfo";
-import Pdf from "./Pdf";
+import Team from "./Team";
 
 function App() {
   return (
     <div className="App">
        <Home />
-       <Pdf />
        <YoutubeEmbed embedId="yegQsjY-Hso" />
        <Cards />
        <Tab />
        <About />
-       <Service />
+       <Team />
+       {/* <Service /> */}
        <Project />
        {/* <Blog /> */}
        {/* <Contact /> */}
