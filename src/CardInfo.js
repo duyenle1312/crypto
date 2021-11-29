@@ -6,7 +6,7 @@ import toolbox4 from "./img/toolbox4.png";
 
 function Cards() {
     return (
-        <div class="bg-white px-8 pb-32 pt-6">
+        <div class="bg-white px-8 pb-20 pt-1">
             <div class="text-center">
                 <p className="md:text-3xl text-lg my-16 font-bold text-blue-700 leading-snug">ALL-IN-ONE TOOLBOX FOR METAVERSE!</p>
                 <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">

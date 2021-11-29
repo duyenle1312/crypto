@@ -1,33 +1,16 @@
-import About from "./About";
-import "./App.css";
-import Blog from "./Blog";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Home";
-import Project from "./Project";
-import Service from "./Service";
-import Tab from "./Tab";
-import YoutubeEmbed from "./YouTube";
-import Form from "./Form";
-import Cards from "./CardInfo";
-import Team from "./Team";
+import Buy from "./Buy";
 
 function App() {
   return (
-    <div className="App">
-       <Home />
-       <YoutubeEmbed embedId="yegQsjY-Hso" />
-       <Cards />
-       <Tab />
-       <About />
-       <Team />
-       {/* <Service /> */}
-       <Project />
-       {/* <Blog /> */}
-       {/* <Contact /> */}
-       <Form />
-       <Footer />
-    </div>
+      <BrowserRouter>
+          <Switch>
+              <Route path='/' component={Home} exact={true} />
+              <Route path='/buy' component={Buy} exact={true} />
+              <Route component={Home} />
+          </Switch>
+      </BrowserRouter>
   );
 }
 
