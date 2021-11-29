@@ -234,7 +234,7 @@ const Tabs = ({ color }) => {
 function Tab() {
     return (
         <div className="px-12 justify-center text-center">
-            <p className="md:text-3xl text-lg mt-12 font-bold text-white leading-snug">METABOT SOLUTIONS FOR</p>
+            <p className="md:text-3xl text-lg mt-24 font-bold text-white leading-snug">METABOT SOLUTIONS FOR</p>
             <p className="md:text-3xl text-lg font-bold text-blue-500 leading-snug">METAVERSE APPLICATIONS</p>
             <Tabs color="indigo" />;
         </div>

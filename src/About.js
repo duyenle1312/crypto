@@ -8,12 +8,12 @@ function About() {
   return (
     <div className="about component__space" id="About">
       <div className="container">
-        <div className="row">
+        <div className="row px-12">
           <div className="col__2">
             <img src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2 m-auto">
-            <h1 className="about__heading">About Me</h1>
+            <h1 className="about__heading">About Us</h1>
             <div className="about__meta">
               <p className="about__text p__color">
                 Metabot is a blockchain-based platform that creates
