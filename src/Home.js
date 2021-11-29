@@ -117,7 +117,7 @@ function Home() {
                     content by applying the world’s most advanced AR / VR SDK.
                   </p>
                     <div className="md:flex inline-block gap-x-6 mt-8">
-                   <a href="#" class="flex items-center md:w-3/12 font-semibold md:text-sm text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
+                   <a href="/buy" class="flex items-center md:w-3/12 font-semibold md:text-sm text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
                       BUY MBT
                    </a>
                     <a href={Pdf} target='_blank' rel='noopener noreferrer' class="flex items-center md:w-3/12 font-semibold md:text-base text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
