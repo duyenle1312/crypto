@@ -12,7 +12,7 @@ const Login = (props) => {
     } else if (window.web3) {
       provider = window.web3.currentProvider;
     } else {
-      window.alert("No Ethereum browser detected! Check out MetaMask");
+      window.alert("Please install MetaMask Extension or Check Your Browser!");
     }
     return provider;
   };
