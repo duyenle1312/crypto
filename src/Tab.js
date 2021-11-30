@@ -118,7 +118,7 @@ const Tabs = ({ color }) => {
                                         <div className="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
                                             <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
                                                 <div className="hero-text col-span-6">
-                                                    <h1 className=" font-bold text-4xl md:text-5xl max-w-xl text-blue-500 leading-tight">
+                                                    <h1 className=" font-bold text-3xl md:text-4xl max-w-xl text-blue-800 leading-tight">
                                                         Metaverse
         </h1>
                                                     <hr className=" w-12 h-1 bg-orange-500 rounded-full mt-8" />
@@ -134,12 +134,12 @@ const Tabs = ({ color }) => {
                                     </div>
                                 </div>
                                 <div className={openTab === 2 ? "block" : "hidden"} id="link3">
-                                    <div className="hero py-16">
+                                    <div className="hero">
                                         <div className="hero bg-blue-50 py-16">
                                             <div className="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
                                                 <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
                                                     <div className="hero-text col-span-6">
-                                                        <h1 className=" font-bold text-4xl md:text-5xl max-w-xl text-blue-500 leading-tight">
+                                                        <h1 className=" font-bold text-3xl md:text-4xl max-w-xl text-blue-800 leading-tight">
                                                         Metabot Marketplace
         </h1>
                                                         <hr className=" w-12 h-1 bg-orange-500 rounded-full mt-8" />
@@ -156,12 +156,12 @@ const Tabs = ({ color }) => {
                                     </div>
                                 </div>
                                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                                <div className="hero py-16">
+                                <div className="hero">
                                         <div className="hero bg-blue-50 py-16">
                                             <div className="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
                                                 <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
                                                     <div className="hero-text col-span-6">
-                                                        <h1 className=" font-bold text-4xl md:text-5xl max-w-xl text-blue-500 leading-tight">
+                                                        <h1 className=" font-bold text-3xl md:text-4xl max-w-xl text-blue-800 max-w-xl leading-tight">
                                                         Metabot Event
         </h1>
                                                         <hr className=" w-12 h-1 bg-orange-500 rounded-full mt-8" />
@@ -178,12 +178,12 @@ const Tabs = ({ color }) => {
                                     </div>
                                 </div>
                                 <div className={openTab === 4 ? "block" : "hidden"} id="link3">
-                                <div className="hero py-16">
+                                <div className="hero">
                                         <div className="hero bg-blue-50 py-16">
                                             <div className="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
                                                 <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
                                                     <div className="hero-text col-span-6">
-                                                        <h1 className=" font-bold text-4xl md:text-5xl max-w-xl text-blue-500 leading-tight">
+                                                        <h1 className=" font-bold text-3xl md:text-4xl max-w-xl text-blue-800 leading-tight">
                                                         Metaverse Social Network Service
         </h1>
                                                         <hr className=" w-12 h-1 bg-orange-500 rounded-full mt-8" />
@@ -199,13 +199,13 @@ const Tabs = ({ color }) => {
                                     </div>
                                 </div>
                                 <div className={openTab === 5 ? "block" : "hidden"} id="link3">
-                                    <div className="hero py-16">
+                                    <div className="hero">
                                         <div className="hero bg-blue-50 py-16">
                                             <div className="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
                                                 <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
                                                     <div className="hero-text col-span-6">
-                                                        <h1 className=" font-bold text-4xl md:text-5xl max-w-xl text-blue-800 leading-tight">
-                                                        Metabot On-Demand Service
+                                                        <h1 className=" font-bold text-3xl md:text-4xl max-w-xl text-blue-800 leading-tight">
+                                                        Metabot On Demand Service
         </h1>
                                                         <hr className=" w-12 h-1 bg-orange-500 rounded-full mt-8" />
                                                         <p className="text-gray-800 text-base leading-relaxed mt-8 font-semibold">

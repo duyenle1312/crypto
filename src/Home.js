@@ -35,10 +35,10 @@ function Home() {
                       <nav class="md:block hidden nav font-semibold text-lg">
                           <ul class="flex items-center">
                               <li class="p-4 hover:text-black">
-                                  <a href="">Metabot</a>
+                                  <a href="" className="text-white">Metabot</a>
                               </li>
                               <li class="p-4 hover:text-green duration-200 cursor-pointer">
-                                  <a href="#About">MBlock</a>
+                                  <a href="">MBlock</a>
                               </li>
                               <li class="p-4 hover:text-green-500">
                                   <a href="">MMarket</a>
@@ -46,14 +46,14 @@ function Home() {
                           </ul>
                       </nav>
 
-                      <div class="md:flex hidden w-3/12 justify-end gap-4">
+                      {/*<div class="md:flex hidden w-3/12 justify-end gap-4">
                           <a href="">
                               EN
                           </a>
                           <a href="">
                               FR
                           </a>
-                      </div>
+                      </div>*/}
                   
                       <div class="md:hidden">
                           <MenuRoundedIcon color="primary" />                      
@@ -117,7 +117,7 @@ function Home() {
                     content by applying the world’s most advanced AR / VR SDK.
                   </p>
                     <div className="md:flex inline-block gap-x-6 mt-8">
-                   <a href="#" class="flex items-center md:w-3/12 font-semibold md:text-sm text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
+                   <a href="/buy" class="flex items-center md:w-3/12 font-semibold md:text-sm text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
                       BUY MBT
                    </a>
                     <a href={Pdf} target='_blank' rel='noopener noreferrer' class="flex items-center md:w-3/12 font-semibold md:text-base text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
