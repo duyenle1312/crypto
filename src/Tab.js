@@ -8,7 +8,7 @@ const Tabs = ({ color }) => {
     const [openTab, setOpenTab] = React.useState(1);
     return (
         <>
-            <div className="flex flex-wrap justify-center items-center">
+            <div className="flex flex-wrap justify-center items-center bg-black">
                 <div className="w-10/12">
                     <ul
                         className="flex my-12 list-none flex-wrap py-3 flex-row px-3 bg-gray-800 rounded-full"
@@ -233,10 +233,10 @@ const Tabs = ({ color }) => {
 
 function Tab() {
     return (
-        <div className="px-12 justify-center text-center">
-            <p className="md:text-3xl text-lg mt-24 font-bold text-white leading-snug">METABOT SOLUTIONS FOR</p>
+        <div className="px-12 justify-center pt-24 text-center bg-black">
+            <p className="md:text-3xl text-lg font-bold text-white leading-snug">METABOT SOLUTIONS FOR</p>
             <p className="md:text-3xl text-lg font-bold text-blue-500 leading-snug">METAVERSE APPLICATIONS</p>
-            <Tabs color="indigo" />;
+            <Tabs color="indigo" />
         </div>
     );
 }
