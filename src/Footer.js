@@ -8,13 +8,13 @@ function Footer() {
               <img src={logo} alt="" className="h-16 w-16" />
           </div>
           <p className="text-md text-center text-white">
-              Company Name: Metabot inc <br/>
+              Company Name: Metabot Inc. <br/>
 
-              Company Registration # : 340-88-02113 <br/>
+              Company Registration: 340-88-02113 <br/>
 
               App development & Service <br/> <br/>
 
-              Copyrights. 2021 Metabot inc. <br/>
+              © Copyrights 2021 Metabot <br/>
               </p>
     </div>
   );

@@ -1,8 +1,10 @@
 import React from "react";
+import LinearProgressWithLabel from '@mui/material/LinearProgress';
+import Progressbar from './components/Progress';
 
 export default function Table() {
 	return (
-		<section class="justify-center w-1/2">
+		<section class="justify-center lg:w-1/2 w-11/12">
     <div class="flex flex-col justify-center h-full">
         <div class="w-full max-w-2xl mx-auto bg-white shadow-lg rounded-sm border border-gray-200">
             <header class="px-5 py-4 border-b border-gray-100">
@@ -11,7 +13,7 @@ export default function Table() {
             <div class="p-3">
                 <div class="overflow-x-auto">
                     <table class="table-auto w-full">
-                        <thead class="text-xs font-semibold uppercase text-blue-700 bg-gray-50">
+                        <thead class="text-xs font-semibold uppercase text-blue-700 bg-gray-50 overscroll-none">
                             <tr>
                                 <th class="p-2 whitespace-nowrap">
                                     <div class="font-semibold text-left">Round</div>
@@ -24,6 +26,9 @@ export default function Table() {
                                 </th>
                                 <th class="p-2 whitespace-nowrap">
                                     <div class="font-semibold text-left">Price</div>
+                                </th>
+                                <th class="p-2 whitespace-nowrap">
+                                    <div class="font-semibold text-left">Status</div>
                                 </th>
                             </tr>
                         </thead>
@@ -43,6 +48,9 @@ export default function Table() {
                                 <td class="p-2 whitespace-nowrap">
                                     <div class="text-left font-medium text-blue-500">0.00001</div>
                                 </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <Progressbar bgcolor="green" progress='100' height={10} />
+                                </td>
                             </tr>
                             <tr>
                                 <td class="p-2 whitespace-nowrap">
@@ -58,6 +66,9 @@ export default function Table() {
                                 </td>
                                 <td class="p-2 whitespace-nowrap">
                                     <div class="text-left font-medium text-blue-500">0.000015</div>
+                                </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <Progressbar bgcolor="#99ccff" progress='0' height={10} />
                                 </td>
                             </tr>
                             <tr>
@@ -75,6 +86,9 @@ export default function Table() {
                                 <td class="p-2 whitespace-nowrap">
                                     <div class="text-left font-medium text-blue-500">0.000017</div>
                                 </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <Progressbar bgcolor="#99ccff" progress='0' height={10} />
+                                </td>
                             </tr>
                             <tr>
                                 <td class="p-2 whitespace-nowrap">
@@ -90,6 +104,9 @@ export default function Table() {
                                 </td>
                                 <td class="p-2 whitespace-nowrap">
                                     <div class="text-left font-medium text-blue-500">0.00002</div>
+                                </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <Progressbar bgcolor="#99ccff" progress='0' height={10} />
                                 </td>
                             </tr>                            
                         </tbody>

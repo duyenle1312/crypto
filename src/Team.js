@@ -15,7 +15,7 @@ export default function Team() {
                     METABOT team members
         </h1>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-28">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px:6 md:px-28">
                 <div class="w-full bg-blue-50 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
                     <div class="w-full md:w-2/5 h-80">
                         <img class="object-top object-cover w-full h-full" src={team1} alt="photo" />

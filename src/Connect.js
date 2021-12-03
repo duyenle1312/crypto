@@ -33,7 +33,7 @@ function App() {
         <div>
             <header className="main-header">
             </header>
-            <main>                
+            <main>
                 {isConnected && (
                     <Home currentAccount={currentAccount} balance={balance} />
                 )}

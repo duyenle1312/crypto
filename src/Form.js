@@ -3,6 +3,11 @@ import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
+    //const [submitting, setSubmitting] = useState(false);
+    //const [email, setEmail] = useState("");
+    //const [name, setName] = useState("");
+    //const [message, setMessage] = useState("");
+
   const formRef = useRef();
   const [done, setDone] = useState(false);
 
@@ -49,11 +54,17 @@ const Contact = () => {
           </div>
         </div>
         <div className="c-right col-span-1">
-          <form ref={formRef} > {/*onSubmit={handleSubmit}*/}
-            <input  type="text" placeholder="Name" name="user_name" className="rounded-lg w-full" />
-            <input  type="text" placeholder="Phone" name="user_subject"  className="rounded-lg w-full"/>
-            <input  type="text" placeholder="Email" name="user_email"  className="rounded-lg w-full"/>
-            <textarea  rows="3" placeholder="Message" name="message"  className="rounded-lg w-full py-3"/>
+                  <form 
+                      acceptCharset="UTF-8"
+                      action="https://getform.io/f/1476b252-72be-4324-9da5-2f8f2b6a6d77"
+                      method="POST"
+                      encType="multipart/form-data"
+                      name="ContactForm"
+                  > {/*ref={formRef} onSubmit={handleSubmit} Link: https://app.getform.io/forms/34360# */}
+            <input  type="text" placeholder="Name" name="name" className="text-black rounded-lg w-full" />
+            <input  type="text" placeholder="Phone" name="phone"  className="text-black rounded-lg w-full"/>
+            <input  type="text" placeholder="Email" name="email"  className="text-black rounded-lg w-full"/>
+            <textarea  rows="3" placeholder="Message" name="message"  className="text-black rounded-lg w-full py-3"/>
             <button className="px-4 py-3 mt-3 bg-blue-500 rounded-lg" >SEND</button>
             {done && "Thank you..."}
           </form>

@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Home";
 import Buy from "./Buy";
-import Connect from "./Connect";
+//import Connect from "./Connect";
 
 function App() {
   return (
@@ -9,8 +9,6 @@ function App() {
           <Routes>
               <Route path='/' element={<Home/>} exact={true} />
               <Route path='/buy' element={<Buy/>} exact={true} />
-              <Route path='/connect' element={<Connect/>} exact={true} />
-
               <Route element={<Home />} />
           </Routes>
       </BrowserRouter>

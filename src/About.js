@@ -15,7 +15,7 @@ function About() {
           <div className="col__2 m-auto">
             <h1 className="md:text-6xl text-3xl text-center mt-8 font-bold text-white">About Us</h1>
             <div className="about__meta">
-                <p className="text-xl text-white mt-1">
+                <p className="text-base md:text-xl text-white mt-1">
                     Metabot is a blockchain-based platform that creates an augmented and virtual reality ecosystem by introducing the applications of the underlying technology required in the metaverse (three-dimensional virtual world).
                               <br /><br />
                     Metaverse is already close to us and will become the mainstream of the augmented and virtualreality space connecting the internet, The metaverse of the future will be very similar to reality. And human avatars and AI will live together, as in the novel Snow Crash.
