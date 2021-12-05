@@ -13,6 +13,7 @@ import YoutubeEmbed from "./YouTube";
 import Form from "./Form";
 import Cards from "./CardInfo";
 import Team from "./Team";
+import Roadmap from "./img/roadmap.png";
 
 function Home() {
   // fixed Header
@@ -28,17 +29,18 @@ function Home() {
           <div className="home__bg min-h-screen">
 
                   <header class="flex header sticky top-0 bg-transparent shadow-md items-center justify-between px-8 py-02">
-                      <div class="w-3/12">
+                      <div class="w-4/12 md:w-1/12 text-left flex">
                           <img src={logo} alt="" className="h-16 w-16" />
+                          <p className="ml-3 m-auto text-left text-white font-bold uppercase">Metabot</p>
                       </div>
 
                       <nav class="md:block hidden nav font-semibold text-lg">
                           <ul class="flex items-center">
                               <li class="p-4 hover:text-black">
-                                  <a href="">Metabot</a>
+                                  <a href="" className="text-white">Metabot</a>
                               </li>
                               <li class="p-4 hover:text-green duration-200 cursor-pointer">
-                                  <a href="#About">MBlock</a>
+                                  <a href="">MBlock</a>
                               </li>
                               <li class="p-4 hover:text-green-500">
                                   <a href="">MMarket</a>
@@ -46,14 +48,14 @@ function Home() {
                           </ul>
                       </nav>
 
-                      <div class="md:flex hidden w-3/12 justify-end gap-4">
+                      {/*<div class="md:flex hidden w-3/12 justify-end gap-4">
                           <a href="">
                               EN
                           </a>
                           <a href="">
                               FR
                           </a>
-                      </div>
+                      </div>*/}
                   
                       <div class="md:hidden">
                           <MenuRoundedIcon color="primary" />                      
@@ -117,10 +119,10 @@ function Home() {
                     content by applying the world’s most advanced AR / VR SDK.
                   </p>
                     <div className="md:flex inline-block gap-x-6 mt-8">
-                   <a href="/buy" class="flex items-center md:w-3/12 font-semibold md:text-sm text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
+                   <a href="/buy" class="mb-3 flex items-center md:w-3/12 font-semibold md:text-sm text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
                       BUY MBT
                    </a>
-                    <a href={Pdf} target='_blank' rel='noopener noreferrer' class="flex items-center md:w-3/12 font-semibold md:text-base text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
+                    <a href={Pdf} target='_blank' rel='noopener noreferrer' class="mb-3 flex items-center md:w-3/12 font-semibold md:text-base text-xs justify-center p-3 text-base font-medium leading-6 text-white text-blue-700 transition duration-150 ease-in-out border border-transparent rounded-lg rounded-full bg-blue-100 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue" data-unsp-sanitized="clean">
                         WHITEPAPER
                    </a>
                     </div>
@@ -135,6 +137,12 @@ function Home() {
               <Cards />
               <Tab />
               <About />
+              <div className="text-center">
+                <h3 class="uppercase mt-12 md:mt-32 my-6 font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-black my-6">
+                      ROADMAP
+                </h3>
+              </div>
+              <img class="md:px-9 object-top object-cover w-full h-full" src={Roadmap} alt="photo" />
               <Team />
               <Project />
               <Form />

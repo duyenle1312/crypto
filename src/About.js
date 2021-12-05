@@ -13,27 +13,16 @@ function About() {
             <img src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2 m-auto">
-            <h1 className="about__heading">About Us</h1>
+            <h1 className="md:text-6xl text-3xl text-center mt-8 font-bold text-white">About Us</h1>
             <div className="about__meta">
-              <p className="about__text p__color">
-                Metabot is a blockchain-based platform that creates
-                an augmented and virtual reality ecosystem by
-                introducing the applications of the underlying technology
-                required in the metaverse (three-dimensional virtual
-                world).
-              </p>
-              <p className="about__text p__color">
-                Metaverse is already close to us and will become the
-                mainstream of the augmented and virtualreality space
-                connecting the internet, The metaverse of the future will
-                be very similar to reality. And human avatars and AI will
-                live together, as in the novel Snow Crash.
-              </p>
-              <p className="about__text p__color">
-              In the world of Metabot, more participants can create and 
-              share AR & VR content together based on their
-    experiences, skills, and content.
-              </p>
+                <p className="text-base md:text-xl text-white mt-1">
+                    Metabot is a blockchain-based platform that creates an augmented and virtual reality ecosystem by introducing the applications of the underlying technology required in the metaverse (three-dimensional virtual world).
+                              <br /><br />
+                    Metaverse is already close to us and will become the mainstream of the augmented and virtualreality space connecting the internet, The metaverse of the future will be very similar to reality. And human avatars and AI will live together, as in the novel Snow Crash.
+                              <br /><br />
+                    In the world of Metabot, more participants can create and share AR & VR content together based on their experiences, skills, and content.
+                </p>
+              
               <div className="about__button d__flex align__items__center">
                 {/* <a href="#">
                   <button className="about btn pointer">Download Cv</button>

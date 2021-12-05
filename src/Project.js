@@ -9,9 +9,9 @@ import Project4 from './img/portfolio-4.jpg';
 function Project() {
   return (
     <div className="project component__space" id="Portfolio">
-          <div className="heading">
+          <div className="heading px-12">
               <div className="-mt-8 flex items-center justify-center text-center">
-                  <p className="md:text-6xl text-lg my-3 font-bold text-white leading-snug">Our Latest Projects</p>
+                  <p className="md:text-6xl text-3xl my-3 font-bold text-white leading-snug">Our Latest Projects</p>
               </div>
               <div className="flex items-center justify-center text-center">
                   <p className="text-lg my-3 font-bold text-white leading-snug">Metabot Blockchain (MBT) Technology - The Key to The Metaverse</p>
@@ -127,7 +127,7 @@ function Project() {
                  </div>
              
                  <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
-                 <button className="view__more pointer btn">View more</button>
+                 {/*<button className="view__more pointer btn">View more</button>*/}
                  </div>
 
                </div>
